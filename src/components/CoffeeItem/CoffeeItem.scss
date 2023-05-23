@@ -1,0 +1,25 @@
+.coffee-item{
+  max-width: 250px;
+  padding: 22px 35px;
+  background-color: #fff;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  &__img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 135px;
+  }
+  &__title{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 14px;
+  }
+  &__country{
+    text-align: right;
+    margin-top: 14px;
+  }
+  &__price{
+    text-align: right;
+    margin-top: 14px;
+  }
+}

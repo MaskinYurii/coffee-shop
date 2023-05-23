@@ -1,0 +1,44 @@
+.nav{
+  display: flex;
+  align-items: flex-end;
+  gap: 0 40px;
+  font-size: 12px;
+  &_white{
+    *{
+      color: #fff;
+    }
+    .nav__logo-img{
+      background-image: url("./../../img/logo-white.png");
+    }
+  }
+  &_black{
+    *{
+      color: #000;
+    }
+    .nav__logo-img{
+      background-image: url("./../../img/logo-black.png");
+    }
+  }
+  &_absolute{
+    position: absolute;
+    left: 149px;
+    top: 30px;
+  }
+  &__logo{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    &-img{
+      display: block;
+      width: 40px;
+      height: 36px;
+      background-repeat: no-repeat;
+    }
+    div{
+      margin-left: -5px
+    }
+  }
+  &__link-item{
+    text-decoration: none;
+  }
+}

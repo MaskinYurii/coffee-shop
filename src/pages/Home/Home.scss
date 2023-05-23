@@ -1,0 +1,71 @@
+@import "../../App";
+
+*{
+  font-family: 'Merienda', cursive;
+}
+.home{
+  .main{
+    height: 100vh;
+    background: url('./../../img/main-bg.png') center center/cover no-repeat;
+    padding: 180px 0 200px;
+    &__title{
+      color: #fff;
+      font-weight: 700;
+      font-size: 40px;
+      text-align: center;
+    }
+    &__outline{
+      margin: 0 auto;
+    }
+    &__subtitle{
+      p{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        &:nth-child(n+2){
+          margin-top: 20px;
+        }
+      }
+    }
+    &__btn{
+      margin: 20px auto 0;
+      height: 30px;
+      padding: 0 42px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: none;
+      border: 1px solid #FFFFFF;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 3px;
+      color: #fff;
+      font-weight: 700;
+
+    }
+  }
+
+  .about{
+    padding: 80px 0 100px;
+    &__outline{
+      margin: 20px auto 0;
+    }
+    &__text{
+      max-width: 590px;
+      margin: 40px auto 0;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  .best{
+    background: url('./../../img/best-bg.png') center center/cover no-repeat;
+    padding: 80px 0 110px;
+    &__wrapper{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+  }
+}
