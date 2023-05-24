@@ -24,7 +24,7 @@ class OurCoffee extends Component{
 
         }
         return items.filter(item => {
-            return item.name.indexOf(term) > -1;
+            return item.name.toLowerCase().indexOf(term) > -1;
         })
     }
     onUpdateSearch = (term) => {

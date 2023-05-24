@@ -9,6 +9,9 @@
     border-radius: 4px;
     padding: 0 10px;
     height: 30px;
+    &:focus{
+      border: none;
+    }
     &::placeholder{
       font-size: 12px;
       text-align: center;
