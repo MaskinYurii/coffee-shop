@@ -7,6 +7,8 @@ import ForPleasure from "./pages/ForPleasure/ForPleasure";
 import React from "react";
 
 function App() {
+
+
   return (
     <>
         <Navbar position='absolute' theme='white'/>

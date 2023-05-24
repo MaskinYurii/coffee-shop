@@ -29,7 +29,11 @@
       }
     }
     &__btn{
+
+      cursor: pointer;
       margin: 20px auto 0;
+      width: 120px;
+      text-decoration: none;
       height: 30px;
       padding: 0 42px;
       display: flex;
@@ -62,10 +66,5 @@
   .best{
     background: url('./../../img/best-bg.png') center center/cover no-repeat;
     padding: 80px 0 110px;
-    &__wrapper{
-      display: flex;
-      justify-content: space-between;
-      margin-top: 40px;
-    }
   }
 }

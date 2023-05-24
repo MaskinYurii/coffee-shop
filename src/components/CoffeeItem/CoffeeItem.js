@@ -2,8 +2,8 @@ import React from 'react';
 
 import './CoffeeItem.scss';
 function CoffeeItem(props) {
-    const {name, weight, price, image, country, needCounty} = props;
-    const countryName = needCounty ? <div className="coffee-item__country">{country}</div> : '';
+    const {name, weight, price, image, country, needCountry} = props;
+    const countryName = needCountry ? <div className="coffee-item__country">{country}</div> : '';
     return (
        <div className="coffee-item">
            <div className='coffee-item__img'>

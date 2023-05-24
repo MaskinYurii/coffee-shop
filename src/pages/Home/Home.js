@@ -1,24 +1,13 @@
 import React from 'react';
 
-import Navbar from "../../components/Navbar/Navbar";
-
-
-import './Home.scss'
-import CoffeeDB from "../../CoffeeDB";
-import CoffeeItem from "../../components/CoffeeItem/CoffeeItem";
 import Footer from "../../components/Footer/Footer";
+import CoffeeItemsList from "../../components/CoffeeItemsList/CoffeeItemsList";
+import coffeeDB from "../../CoffeeDB";
+
+import './Home.scss';
+import {NavLink} from "react-router-dom";
 
 function Home() {
-
-    const coffeeItems = CoffeeDB.map((item, index) =>{
-       const {id, ...itemProps} = item;
-        if(index < 3){
-            return <CoffeeItem
-                key={id}
-                {...itemProps}
-                needCountry={false}/>
-        }
-    })
 
     return (
         <div className="home">
@@ -31,7 +20,7 @@ function Home() {
                         <p>We makes every day full of energy and taste</p>
                         <p>Want to try our beans?</p>
                     </div>
-                    <button className="main__btn">More</button>
+                    <NavLink to="/OurCoffee" className="main__btn">More</NavLink>
                 </div>
             </section>
 
@@ -58,9 +47,9 @@ function Home() {
             <section className="best">
                 <div className="container">
                     <h2 className="title best__title">Our Best</h2>
-                    <div className="best__wrapper">
-                        {coffeeItems}
-                    </div>
+                    <CoffeeItemsList
+                        countItems={3}
+                        data={coffeeDB}/>
                 </div>
             </section>
 

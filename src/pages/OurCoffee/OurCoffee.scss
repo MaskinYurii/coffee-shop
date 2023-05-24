@@ -10,4 +10,17 @@
     color: #FFFFFF;
     background: url("./../../img/our-coffee-bg.jpg") center center/cover no-repeat;
   }
+  .main{
+    &__goods{
+      padding: 30px 0;
+    }
+    &__panel{
+      max-width: 740px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
 }

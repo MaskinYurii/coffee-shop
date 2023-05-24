@@ -1,0 +1,20 @@
+.search-panel{
+  display: flex;
+  gap: 0 20px;
+  align-items: center;
+  &__input{
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px;
+    height: 30px;
+    &::placeholder{
+      font-size: 12px;
+      text-align: center;
+
+      color: rgba(0, 0, 0, 0.5);
+      border: none;
+    }
+  }
+}
