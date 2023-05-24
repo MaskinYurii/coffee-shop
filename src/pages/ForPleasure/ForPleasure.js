@@ -8,7 +8,7 @@ import coffeeDB from "../../CoffeeDB";
 function ForPleasure() {
     return (
         <div className='pleasure'>
-            <header className="header">
+            <header className="header pleasure__header">
                 For your pleasure
             </header>
             <main className='main'>

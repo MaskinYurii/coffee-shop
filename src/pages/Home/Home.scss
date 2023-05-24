@@ -8,6 +8,9 @@
     height: 100vh;
     background: url('./../../img/main-bg.png') center center/cover no-repeat;
     padding: 180px 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__title{
       color: #fff;
       font-weight: 700;
@@ -15,7 +18,7 @@
       text-align: center;
     }
     &__outline{
-      margin: 0 auto;
+      margin: 20px auto 35px;
     }
     &__subtitle{
       p{

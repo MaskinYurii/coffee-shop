@@ -1,11 +1,5 @@
 .pleasure{
-  .header{
-    height: 260px;
-    padding: 130px 0 84px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    color: #FFFFFF;
+  &__header{
     background: url("./../../img/for-pleasure-bg.jpg") center center/cover no-repeat;
   }
 }

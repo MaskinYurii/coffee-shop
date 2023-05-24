@@ -33,7 +33,7 @@
     height: 100%;
 }
 .main{
-    //padding-bottom: calc(100vh - 4);
+    padding-bottom: 70px;
 }
 .container{
     max-width: 800px;
@@ -45,4 +45,12 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
+}
+.header{
+    height: 260px;
+    padding: 130px 0 84px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
 }

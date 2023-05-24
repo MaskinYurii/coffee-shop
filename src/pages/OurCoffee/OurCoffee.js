@@ -53,7 +53,7 @@ class OurCoffee extends Component{
         const visibleData = this.filterPost(this.searchCoffee(data, term), filter)
         return (
             <div className='our-coffee'>
-                <header className="header">
+                <header className="header our-coffee__header">
                     Our Coffee
                 </header>
                 <main className='main'>

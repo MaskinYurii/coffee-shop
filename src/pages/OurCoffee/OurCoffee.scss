@@ -1,13 +1,7 @@
 
 .our-coffee{
   min-height: 100vh;
-  .header{
-    height: 260px;
-    padding: 130px 0 84px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    color: #FFFFFF;
+  &__header{
     background: url("./../../img/our-coffee-bg.jpg") center center/cover no-repeat;
   }
   .main{

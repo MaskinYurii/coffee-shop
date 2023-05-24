@@ -1,10 +1,14 @@
-import './App.scss';
+import React from "react";
+import {Route, Routes} from "react-router-dom";
+
+
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
-import {Route, Routes} from "react-router-dom";
 import OurCoffee from "./pages/OurCoffee/OurCoffee";
 import ForPleasure from "./pages/ForPleasure/ForPleasure";
-import React from "react";
+import CoffeePage from "./pages/CoffeePage/CoffeePage";
+import './App.scss';
+
 
 function App() {
 
@@ -16,7 +20,9 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='OurCoffee' element={<OurCoffee/>}/>
             <Route path='ForPleasure' element={<ForPleasure/>}/>
+            <Route path='/good/:id' element={<CoffeePage/>}/>
         </Routes>
+
     </>
   );
 }
